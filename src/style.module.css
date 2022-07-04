@@ -1,0 +1,112 @@
+/* styles sheet */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    height: 40px;
+    background-color:rgb(1, 45, 57);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+}
+
+.btn{
+    margin-left: 10px;
+}
+.tittle{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    margin-left: 10px;
+    font-size:15px;
+    border:4px outset rgba(13, 141, 245, 0.835);
+    color:rgb(233, 248, 255);
+    
+}
+.home{
+    border: outset 2px rgba(13, 141, 245, 0.835);
+    border-radius:50%;
+    cursor:pointer;
+    width:30px;
+    height:30px;
+    background-image:url('https://image.shutterstock.com/mosaic_250/0/0/562242718.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.products{
+    border: outset 2px rgba(13, 141, 245, 0.835);
+    border-radius:50%;
+    cursor:pointer;
+    width:30px;
+    height:30px;
+    background-image:url('https://previews.123rf.com/images/fokaspokas/fokaspokas1608/fokaspokas160800001/62188009-icono-lista-de-verificaci%C3%B3n.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+}
+.cart{
+    border: outset 2px rgba(13, 141, 245, 0.835);
+    border-radius:50%;
+    cursor:pointer;
+    width:30px;
+    height:30px;
+    background-image:url('https://st4.depositphotos.com/36781036/37984/v/450/depositphotos_379849890-stock-illustration-shopping-icon-vector-shopping-cart.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    margin-left:10px;
+}
+.logup{
+    border: outset 2px rgba(13, 141, 245, 0.835);
+    border-radius:50%;
+    cursor:pointer;
+    width:30px;
+    height:30px;
+    background-image:url('https://th.bing.com/th/id/OIP.Jv1Xu5tbngEJW3PaiiE-KgEsCd?pid=ImgDet&rs=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+}
+.login{
+    border: outset 2px rgba(13, 141, 245, 0.835);
+    border-radius:50%;
+    cursor:pointer;
+    width:30px;
+    height:30px;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQueskTtl7dvVM0Th3uQvvhJXehOQrrY2p0HQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    margin-left:10px;
+}
+.logout{
+    border: outset 2px rgba(13, 141, 245, 0.835);
+    border-radius:50%;
+    cursor:pointer;
+    width:30px;
+    height:30px;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSotZE6rfKI2PiGNey_Xk_Jr5cOcWS-o42-Tg&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    margin-left:10px;
+}
+.innav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media only screen and (min-width: 700px){
+}
+.tittle{
+    font-size:20px;
+}

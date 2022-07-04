@@ -12,6 +12,21 @@
   background-size: contain;
   background-position: center;
 }
+.tittleimg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.h1{
+  margin-top:15px;
+  padding:10px;
+  font-size:20px;
+  border:5px inset rgba(0, 128, 96, 0.304); 
+}
+
 .loginForm{
   background-color: rgba(255, 255, 255, 0.55);
   padding:15px;
@@ -23,9 +38,11 @@
 }
 
 .example{
+  height:100px;
   display: flex;
   flex-direction: column;
-  padding:5px;
+  justify-content: space-around;
+  padding-left:30px;
   background-color: rgba(0, 128, 96, 0.304);
   
 }
@@ -36,34 +53,48 @@
 }
 .p{
   font-style: italic;
-  font-size:small;
+  font-size:15px;
   color:rgba(0, 128, 96, 0.959);
 }
 .input{
+  margin-top:20px;
   display: flex;
   flex-direction: column;
   position: relative;
 }
-#email{
+#emailLogin{
   width: 100%;
+  height: 40px;
+  padding: 10px; 
 }
 #password{
   width: 100%;
+  height: 40px;
+  padding: 10px;
+}
+.label{
+  font-size: 20px;
 }
 .botonLogin{
+  height: 40px;
   margin-top:30px;
   background-color:rgba(2, 51, 39, 0.959);
   color:white;
+  font-size: 20px;
+  border: outset 5px rgba(0, 128, 96, 0.304);
+  cursor:pointer;
+}
+.question{
+  display:flex;
+  justify-content: space-around;
+}
+.botonRegister{
+  border:none;
+  color:green;
+  cursor:pointer;
 }
 
-.ojo{
-  width:20px;
-  position: absolute;
-  right:12px;
-  bottom:0;
-  background-color: transparent;
-  border:none;
-}
+
 @media only screen and (min-width: 700px){
 .container{
   flex-direction: row;

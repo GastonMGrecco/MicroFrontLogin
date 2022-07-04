@@ -20,7 +20,7 @@ module.exports = (env, argv) => {
       hot: false,
       watchFiles: ['public/**/*']
     },
-    devtool: 'source-map',
+
     module: {
       rules: [
         {
@@ -52,12 +52,14 @@ module.exports = (env, argv) => {
         template: './public/index.html'
       }),
       new ModuleFederationPlugin({
-        name: 'nav',
+        name: 'login',
         filename: 'remoteEntry.js',
         remotes: {
         },
         exposes: {
-          './nav': './src/App.js'
+          './home': './src/routes/Home/HomeApp.js',
+          './login': './src/routes/Login/LoginApp.js',
+          './logup': './src/routes/LogUp/LogupApp.js'
         },
         shared: {
           ...deps,

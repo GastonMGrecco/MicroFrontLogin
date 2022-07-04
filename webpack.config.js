@@ -14,11 +14,7 @@ module.exports = (env, argv) => {
 
     },
     devServer: {
-<<<<<<< HEAD
       port: 8082,
-=======
-      port: 8081,
->>>>>>> e0a52f32a81f7770bfe1d485477cf53f73b3ef5c
       liveReload: true,
       open: true,
       hot: false,
